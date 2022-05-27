@@ -1,0 +1,102 @@
+@import "reset.css";
+
+:root {
+  --background--color: #353c45;
+}
+
+body {
+  background-color: var(--background--color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 30px 0;
+  background-color: var(--background--color);
+}
+
+.home {
+  background-color: var(--background--color);
+  border: none;
+}
+
+.find {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn__dress {
+  margin-right: 10px;
+  background-color: var(--background--color);
+  border: none;
+}
+
+.btn__dress img {
+  width: 3.75rem;
+}
+
+.btn__color {
+  display: flex;
+  align-items: center;
+}
+
+.btn__color button {
+  width: 3.75rem;
+  height: 2.75rem;
+  margin-right: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+.btn__blue {
+  background-color: #0080bd;
+}
+
+.btn__yellow {
+  background-color: #ffb100;
+}
+
+.btn__pink {
+  background-color: #ff6776;
+}
+
+.list {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.list__ul {
+  overflow: scroll;
+  -ms-overflow-style: none;
+  height: 34.375rem;
+}
+
+.list__ul::-webkit-scrollbar {
+  display: none;
+}
+
+.list__ul li {
+  background-color: white;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.list__ul li img {
+  height: 3.438rem;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.list__ul .hidden {
+  display: none;
+}
